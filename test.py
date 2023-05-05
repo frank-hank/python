@@ -1,1 +1,6 @@
+import requests
+
 print("你好GitHub!!!!！")
+
+res = requests.get("https://baidu.com")
+print(res.text)
